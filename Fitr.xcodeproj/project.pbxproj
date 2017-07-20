@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2BD286C1F206640000EE752 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BD286B1F206640000EE752 /* AppDelegate.swift */; };
+		C2BD286E1F206640000EE752 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BD286D1F206640000EE752 /* ViewController.swift */; };
+		C2BD28711F206640000EE752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2BD286F1F206640000EE752 /* Main.storyboard */; };
+		C2BD28731F206640000EE752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2BD28721F206640000EE752 /* Assets.xcassets */; };
+		C2BD28761F206640000EE752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2BD28741F206640000EE752 /* LaunchScreen.storyboard */; };
+		C2BD28811F206640000EE752 /* FitrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BD28801F206640000EE752 /* FitrTests.swift */; };
+		C2BD288C1F206640000EE752 /* FitrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BD288B1F206640000EE752 /* FitrUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2BD287D1F206640000EE752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BD28601F206640000EE752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2BD28671F206640000EE752;
+			remoteInfo = Fitr;
+		};
+		C2BD28881F206640000EE752 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2BD28601F206640000EE752 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2BD28671F206640000EE752;
+			remoteInfo = Fitr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2BD28681F206640000EE752 /* Fitr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BD286B1F206640000EE752 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2BD286D1F206640000EE752 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2BD28701F206640000EE752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2BD28721F206640000EE752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2BD28751F206640000EE752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2BD28771F206640000EE752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2BD287C1F206640000EE752 /* FitrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BD28801F206640000EE752 /* FitrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitrTests.swift; sourceTree = "<group>"; };
+		C2BD28821F206640000EE752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2BD28871F206640000EE752 /* FitrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BD288B1F206640000EE752 /* FitrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitrUITests.swift; sourceTree = "<group>"; };
+		C2BD288D1F206640000EE752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2BD28651F206640000EE752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BD28791F206640000EE752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BD28841F206640000EE752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2BD285F1F206640000EE752 = {
+			isa = PBXGroup;
+			children = (
+				C2BD286A1F206640000EE752 /* Fitr */,
+				C2BD287F1F206640000EE752 /* FitrTests */,
+				C2BD288A1F206640000EE752 /* FitrUITests */,
+				C2BD28691F206640000EE752 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2BD28691F206640000EE752 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2BD28681F206640000EE752 /* Fitr.app */,
+				C2BD287C1F206640000EE752 /* FitrTests.xctest */,
+				C2BD28871F206640000EE752 /* FitrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2BD286A1F206640000EE752 /* Fitr */ = {
+			isa = PBXGroup;
+			children = (
+				C2BD286B1F206640000EE752 /* AppDelegate.swift */,
+				C2BD286D1F206640000EE752 /* ViewController.swift */,
+				C2BD286F1F206640000EE752 /* Main.storyboard */,
+				C2BD28721F206640000EE752 /* Assets.xcassets */,
+				C2BD28741F206640000EE752 /* LaunchScreen.storyboard */,
+				C2BD28771F206640000EE752 /* Info.plist */,
+			);
+			path = Fitr;
+			sourceTree = "<group>";
+		};
+		C2BD287F1F206640000EE752 /* FitrTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2BD28801F206640000EE752 /* FitrTests.swift */,
+				C2BD28821F206640000EE752 /* Info.plist */,
+			);
+			path = FitrTests;
+			sourceTree = "<group>";
+		};
+		C2BD288A1F206640000EE752 /* FitrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2BD288B1F206640000EE752 /* FitrUITests.swift */,
+				C2BD288D1F206640000EE752 /* Info.plist */,
+			);
+			path = FitrUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2BD28671F206640000EE752 /* Fitr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2BD28901F206640000EE752 /* Build configuration list for PBXNativeTarget "Fitr" */;
+			buildPhases = (
+				C2BD28641F206640000EE752 /* Sources */,
+				C2BD28651F206640000EE752 /* Frameworks */,
+				C2BD28661F206640000EE752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fitr;
+			productName = Fitr;
+			productReference = C2BD28681F206640000EE752 /* Fitr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2BD287B1F206640000EE752 /* FitrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2BD28931F206640000EE752 /* Build configuration list for PBXNativeTarget "FitrTests" */;
+			buildPhases = (
+				C2BD28781F206640000EE752 /* Sources */,
+				C2BD28791F206640000EE752 /* Frameworks */,
+				C2BD287A1F206640000EE752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2BD287E1F206640000EE752 /* PBXTargetDependency */,
+			);
+			name = FitrTests;
+			productName = FitrTests;
+			productReference = C2BD287C1F206640000EE752 /* FitrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2BD28861F206640000EE752 /* FitrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2BD28961F206640000EE752 /* Build configuration list for PBXNativeTarget "FitrUITests" */;
+			buildPhases = (
+				C2BD28831F206640000EE752 /* Sources */,
+				C2BD28841F206640000EE752 /* Frameworks */,
+				C2BD28851F206640000EE752 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2BD28891F206640000EE752 /* PBXTargetDependency */,
+			);
+			name = FitrUITests;
+			productName = FitrUITests;
+			productReference = C2BD28871F206640000EE752 /* FitrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2BD28601F206640000EE752 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Craig PullarFitr";
+				TargetAttributes = {
+					C2BD28671F206640000EE752 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					C2BD287B1F206640000EE752 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C2BD28671F206640000EE752;
+					};
+					C2BD28861F206640000EE752 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = C2BD28671F206640000EE752;
+					};
+				};
+			};
+			buildConfigurationList = C2BD28631F206640000EE752 /* Build configuration list for PBXProject "Fitr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2BD285F1F206640000EE752;
+			productRefGroup = C2BD28691F206640000EE752 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2BD28671F206640000EE752 /* Fitr */,
+				C2BD287B1F206640000EE752 /* FitrTests */,
+				C2BD28861F206640000EE752 /* FitrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2BD28661F206640000EE752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BD28761F206640000EE752 /* LaunchScreen.storyboard in Resources */,
+				C2BD28731F206640000EE752 /* Assets.xcassets in Resources */,
+				C2BD28711F206640000EE752 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BD287A1F206640000EE752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BD28851F206640000EE752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2BD28641F206640000EE752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BD286E1F206640000EE752 /* ViewController.swift in Sources */,
+				C2BD286C1F206640000EE752 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BD28781F206640000EE752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BD28811F206640000EE752 /* FitrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2BD28831F206640000EE752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2BD288C1F206640000EE752 /* FitrUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2BD287E1F206640000EE752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2BD28671F206640000EE752 /* Fitr */;
+			targetProxy = C2BD287D1F206640000EE752 /* PBXContainerItemProxy */;
+		};
+		C2BD28891F206640000EE752 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2BD28671F206640000EE752 /* Fitr */;
+			targetProxy = C2BD28881F206640000EE752 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2BD286F1F206640000EE752 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2BD28701F206640000EE752 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2BD28741F206640000EE752 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2BD28751F206640000EE752 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2BD288E1F206640000EE752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2BD288F1F206640000EE752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2BD28911F206640000EE752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fitr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fitr.Fitr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2BD28921F206640000EE752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fitr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fitr.Fitr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C2BD28941F206640000EE752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FitrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fitr.FitrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitr.app/Fitr";
+			};
+			name = Debug;
+		};
+		C2BD28951F206640000EE752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FitrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fitr.FitrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitr.app/Fitr";
+			};
+			name = Release;
+		};
+		C2BD28971F206640000EE752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FitrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fitr.FitrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fitr;
+			};
+			name = Debug;
+		};
+		C2BD28981F206640000EE752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FitrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Fitr.FitrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fitr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2BD28631F206640000EE752 /* Build configuration list for PBXProject "Fitr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BD288E1F206640000EE752 /* Debug */,
+				C2BD288F1F206640000EE752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2BD28901F206640000EE752 /* Build configuration list for PBXNativeTarget "Fitr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BD28911F206640000EE752 /* Debug */,
+				C2BD28921F206640000EE752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2BD28931F206640000EE752 /* Build configuration list for PBXNativeTarget "FitrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BD28941F206640000EE752 /* Debug */,
+				C2BD28951F206640000EE752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2BD28961F206640000EE752 /* Build configuration list for PBXNativeTarget "FitrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2BD28971F206640000EE752 /* Debug */,
+				C2BD28981F206640000EE752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2BD28601F206640000EE752 /* Project object */;
+}
