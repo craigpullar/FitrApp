@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		C2BD286C1F206640000EE752 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BD286B1F206640000EE752 /* AppDelegate.swift */; };
-		C2BD286E1F206640000EE752 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BD286D1F206640000EE752 /* ViewController.swift */; };
-		C2BD28711F206640000EE752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2BD286F1F206640000EE752 /* Main.storyboard */; };
+		C2BD286E1F206640000EE752 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BD286D1F206640000EE752 /* HomeViewController.swift */; };
 		C2BD28731F206640000EE752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2BD28721F206640000EE752 /* Assets.xcassets */; };
-		C2BD28761F206640000EE752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2BD28741F206640000EE752 /* LaunchScreen.storyboard */; };
 		C2BD28811F206640000EE752 /* FitrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BD28801F206640000EE752 /* FitrTests.swift */; };
 		C2BD288C1F206640000EE752 /* FitrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BD288B1F206640000EE752 /* FitrUITests.swift */; };
+		C2BD289A1F206AE6000EE752 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BD28991F206AE6000EE752 /* HomeView.swift */; };
+		C2BD289C1F20743F000EE752 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2BD289B1F20743F000EE752 /* Launch.storyboard */; };
+		C2BD28A01F207568000EE752 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BD289F1F207568000EE752 /* NavBar.swift */; };
+		C2C6AC671F207B4100A8479E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C6AC661F207B4100A8479E /* SettingsViewController.swift */; };
+		C2C6AC691F207B7700A8479E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C6AC681F207B7700A8479E /* SettingsView.swift */; };
+		C2C6AC6B1F207CA800A8479E /* SetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C6AC6A1F207CA800A8479E /* SetViewController.swift */; };
+		C2C6AC6D1F207CC900A8479E /* SetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C6AC6C1F207CC900A8479E /* SetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +41,8 @@
 /* Begin PBXFileReference section */
 		C2BD28681F206640000EE752 /* Fitr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BD286B1F206640000EE752 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C2BD286D1F206640000EE752 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C2BD28701F206640000EE752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2BD286D1F206640000EE752 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C2BD28721F206640000EE752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C2BD28751F206640000EE752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2BD28771F206640000EE752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2BD287C1F206640000EE752 /* FitrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BD28801F206640000EE752 /* FitrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitrTests.swift; sourceTree = "<group>"; };
@@ -47,6 +50,13 @@
 		C2BD28871F206640000EE752 /* FitrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BD288B1F206640000EE752 /* FitrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitrUITests.swift; sourceTree = "<group>"; };
 		C2BD288D1F206640000EE752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2BD28991F206AE6000EE752 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C2BD289B1F20743F000EE752 /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		C2BD289F1F207568000EE752 /* NavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		C2C6AC661F207B4100A8479E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C2C6AC681F207B7700A8479E /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C2C6AC6A1F207CA800A8479E /* SetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetViewController.swift; sourceTree = "<group>"; };
+		C2C6AC6C1F207CC900A8479E /* SetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +107,11 @@
 		C2BD286A1F206640000EE752 /* Fitr */ = {
 			isa = PBXGroup;
 			children = (
+				C2BD289E1F207522000EE752 /* controllers */,
+				C2BD289D1F207516000EE752 /* views */,
 				C2BD286B1F206640000EE752 /* AppDelegate.swift */,
-				C2BD286D1F206640000EE752 /* ViewController.swift */,
-				C2BD286F1F206640000EE752 /* Main.storyboard */,
+				C2BD289B1F20743F000EE752 /* Launch.storyboard */,
 				C2BD28721F206640000EE752 /* Assets.xcassets */,
-				C2BD28741F206640000EE752 /* LaunchScreen.storyboard */,
 				C2BD28771F206640000EE752 /* Info.plist */,
 			);
 			path = Fitr;
@@ -123,6 +133,27 @@
 				C2BD288D1F206640000EE752 /* Info.plist */,
 			);
 			path = FitrUITests;
+			sourceTree = "<group>";
+		};
+		C2BD289D1F207516000EE752 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				C2BD28991F206AE6000EE752 /* HomeView.swift */,
+				C2C6AC6C1F207CC900A8479E /* SetView.swift */,
+				C2C6AC681F207B7700A8479E /* SettingsView.swift */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		C2BD289E1F207522000EE752 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C2BD286D1F206640000EE752 /* HomeViewController.swift */,
+				C2C6AC661F207B4100A8479E /* SettingsViewController.swift */,
+				C2C6AC6A1F207CA800A8479E /* SetViewController.swift */,
+				C2BD289F1F207568000EE752 /* NavBar.swift */,
+			);
+			name = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +260,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2BD28761F206640000EE752 /* LaunchScreen.storyboard in Resources */,
 				C2BD28731F206640000EE752 /* Assets.xcassets in Resources */,
-				C2BD28711F206640000EE752 /* Main.storyboard in Resources */,
+				C2BD289C1F20743F000EE752 /* Launch.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +286,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2BD286E1F206640000EE752 /* ViewController.swift in Sources */,
+				C2BD289A1F206AE6000EE752 /* HomeView.swift in Sources */,
+				C2BD28A01F207568000EE752 /* NavBar.swift in Sources */,
+				C2BD286E1F206640000EE752 /* HomeViewController.swift in Sources */,
+				C2C6AC691F207B7700A8479E /* SettingsView.swift in Sources */,
+				C2C6AC6B1F207CA800A8479E /* SetViewController.swift in Sources */,
+				C2C6AC671F207B4100A8479E /* SettingsViewController.swift in Sources */,
 				C2BD286C1F206640000EE752 /* AppDelegate.swift in Sources */,
+				C2C6AC6D1F207CC900A8479E /* SetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +327,6 @@
 			targetProxy = C2BD28881F206640000EE752 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C2BD286F1F206640000EE752 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C2BD28701F206640000EE752 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C2BD28741F206640000EE752 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C2BD28751F206640000EE752 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C2BD288E1F206640000EE752 /* Debug */ = {
@@ -484,6 +501,7 @@
 				C2BD28921F206640000EE752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2BD28931F206640000EE752 /* Build configuration list for PBXNativeTarget "FitrTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +510,7 @@
 				C2BD28951F206640000EE752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2BD28961F206640000EE752 /* Build configuration list for PBXNativeTarget "FitrUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +519,7 @@
 				C2BD28981F206640000EE752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
